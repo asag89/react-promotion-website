@@ -15,6 +15,7 @@ const initialState = {
     promotionDetailData: null,
 }
 
+const url = "https://api.extrazone.com"
 
 export const getTags = createAsyncThunk("app/getTags", async (_, thunkAPI) => {
     try {
