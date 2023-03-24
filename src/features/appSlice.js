@@ -15,7 +15,6 @@ const initialState = {
     promotionDetailData: null,
 }
 
-const url = process.env.REACT_APP_API_URL
 
 export const getTags = createAsyncThunk("app/getTags", async (_, thunkAPI) => {
     try {
